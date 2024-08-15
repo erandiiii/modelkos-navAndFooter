@@ -14,12 +14,14 @@ function App() {
     <>
       <ScrollToTop/>
       <Nav/>
-      {/* <Home/> */}
+       <Home/>
       <Routes>
-        <Route path='/models' element={<Footer/>} />
+        
       </Routes>
       
-      <Footer/>
+      
+      <Footer/> 
+      
       
     </>
   )

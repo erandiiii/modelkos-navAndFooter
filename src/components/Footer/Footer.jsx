@@ -17,6 +17,7 @@ const Footer = (props) => {
                 <CurvedTxt />
                 <h1>MODELING</h1>
             </div>
+            <div className="mainrow">
             <div className="footer-links">
                 {footerData.map((props) =>{
                     return(
@@ -33,6 +34,7 @@ const Footer = (props) => {
                         
                     )
                 })}
+                </div>
                 <div className='footer-line'></div>
                 <div className="footer-info">
                    <div className='models-info'>
@@ -53,6 +55,8 @@ const Footer = (props) => {
                    </div>
                 </div>
             </div>
+            
+           
             <div className='footer-line1'></div>
             <div className='real-footer'>
                 <div className='logo-holder'>

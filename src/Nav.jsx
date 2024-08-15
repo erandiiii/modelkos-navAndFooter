@@ -64,8 +64,8 @@ const Nav = () => {
           
 
             <div id="auth" className={menuOpen2 ? "open" : ""}>
-                <Link to='/'>Log in</Link>
-                <Link to='/'  className='sign-up'>Sign Up</Link>
+                <Link to='/'>Apply now</Link>
+                <Link to='/'  className='sign-up'>Contacts</Link>
             </div>
 
         </div>
